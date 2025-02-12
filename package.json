@@ -3,14 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://pejopar.github.io/portfolio_website",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive", 
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Peter Parviainen",
-  "license": "ISC",
-  "dependencies": {
-    "gh-pages": "^5.0.0"
-  }
+  "license": "ISC"
 }
