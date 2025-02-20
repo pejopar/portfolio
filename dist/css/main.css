@@ -58,14 +58,14 @@
       background: url("/dist/img/me.jpg");
       background-position: right 65% bottom 95%;
       border-radius: 50%;
-      border: solid 3px #b4adad; }
+      border: solid 3px #767676; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #b4adad; }
+      color: #767676; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -77,7 +77,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #b4adad; }
+      color: #767676; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -118,7 +118,7 @@ h3 {
     padding: 0.2rem 1 rem; }
 
 a {
-  color: #b4adad;
+  color: #767676;
   text-decoration: none; }
 
 header {
@@ -127,7 +127,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #b4adad; }
+  color: #767676; }
 
 main {
   padding: 4rem;
@@ -138,7 +138,7 @@ main {
       padding: 0.4rem;
       color: #000; }
       main .icons a:hover {
-        color: #b4adad;
+        color: #767676;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -178,10 +178,10 @@ main {
   grid-gap: 1rem; }
   .projects img {
     width: 100%;
-    border: 3px #b4adad solid; }
+    border: 3px #767676 solid; }
     .projects imghover {
       opacity: 0.5;
-      border-color: #b4adad;
+      border-color: #767676;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -198,7 +198,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #b4adad;
+      background: #767676;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -209,11 +209,11 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #b4adad;
+    background: rgba(128, 128, 128, 0.537);
     color: #000; }
 
 .btn-dark {
-  background: rgba(128, 128, 128, 0.983);
+  background: rgba(128, 128, 128, 0.537);
   color: #fff; }
 
 .btn-light {
